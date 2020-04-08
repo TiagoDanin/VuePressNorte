@@ -3,7 +3,8 @@
     "description": "[PT-BR] Arquivos da apresentação para o Meetup do Vuejs Norte - Edição 11º",
     "scripts": {
         "dev": "nodemon --exec vuepress dev",
-        "build": "nodemon --exec vuepress build"
+        "build": "vuepress build",
+        "deploy": "gh-pages -d .vuepress/dist"
     },
     "repository": {
         "type": "git",
@@ -18,10 +19,15 @@
         "vuepress": "^1.4.0"
     },
     "devDependencies": {
+        "gh-pages": "^2.2.0",
         "nodemon": "^2.0.2"
     },
     "nodemonConfig": {
-        "watch": ["*", ".vuepress", "docs"],
+        "watch": [
+            "*",
+            ".vuepress",
+            "docs"
+        ],
         "ext": "md, MD, js, vue"
     }
 }
