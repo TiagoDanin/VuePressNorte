@@ -16,11 +16,11 @@
     },
     "homepage": "https://github.com/TiagoDanin/VuePressNorte#readme",
     "dependencies": {
-        "vuepress": "^1.4.0"
+        "vuepress": "1.4.0"
     },
     "devDependencies": {
-        "gh-pages": "^2.2.0",
-        "nodemon": "^2.0.2"
+        "gh-pages": "2.2.0",
+        "nodemon": "2.0.3"
     },
     "nodemonConfig": {
         "watch": [
