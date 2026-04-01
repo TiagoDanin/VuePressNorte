@@ -20,7 +20,7 @@
     },
     "devDependencies": {
         "gh-pages": "2.2.0",
-        "nodemon": "2.0.4"
+        "nodemon": "2.0.22"
     },
     "nodemonConfig": {
         "watch": [
